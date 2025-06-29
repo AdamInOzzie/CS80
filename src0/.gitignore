@@ -1,0 +1,12 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore archives
+*.zip
+
+# Ignore temporary or OS files
+.DS_Store
+
+# Ignore large media
+*.png
