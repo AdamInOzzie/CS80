@@ -1,12 +1,41 @@
-# Ignore Python virtual environments
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore archives
-*.zip
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
 
-# Ignore temporary or OS files
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
 .DS_Store
 
-# Ignore large media
+# Pygame or graphics assets (optional)
+*.log
+*.tmp
 *.png
+*.jpg
+*.ttf
+
+# Python test/cache
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
